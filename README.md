@@ -1,4 +1,4 @@
-# sql-data-warehouse-project
+# Data Warehouse and Analytics Project
 Building a modernized data warehouse using SQL Server, including ETL processes, data modelling and analytics.
 
 Welcome to the **Data Warehouse and Analytics Project** repository. 
@@ -6,7 +6,18 @@ This project demonstrates a comprehensice data warehousing and analytics solutio
 
 ---
 
-## Project Requirements
+## Project Overview
+This project involves:
+1. **Data Architecture:** Designing a modern Data Warehouse using Medallion Architecture **Bronze**, **Silver** and **Gold** layers.
+2. **ETL Pipelines:** Extracting, Transforming and Loading data fromo source systems into the warehouse.
+3. **Data Modeling:** Developing fact and dimension tables, optimized for analytical queries.
+4. **Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
+
+This repository is an excellent resource for professionals and students looking to showcase expertise in:
+- SQL Development
+- Data Architect
+- Data Engineering
+- ETL Pipeline Developer
 
 ### Building the Data Warehouse (Data Engineering)
 
