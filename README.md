@@ -18,8 +18,22 @@ This repository is an excellent resource for professionals and students looking 
 - Data Architect
 - Data Engineering
 - ETL Pipeline Developer
+- Data Modeling
+- Data Analytics
+---
 
-### Building the Data Warehouse (Data Engineering)
+### Important Links & Tools:
+- **Datasets**: Access to the Project Dataset (csv files).
+- **SQL Server Express**: Lightweight server for hosting your SQL database.
+- **GIT Repository**: Repository to manage, version and collaborate on the code efficiently.
+- **DrawIO**: Design Data Architecture, models, flows and diagrams.
+- **Notion**: All-in-one tool for project management and organization.
+- **Notion Project Steps**: Access to all project phases and tasks.
+
+---
+
+### Project Requirements
+#### Building the Data Warehouse (Data Engineering)
 
 #### Objective
 Develop a modern warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
