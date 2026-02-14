@@ -50,7 +50,7 @@ Develop a modern warehouse using SQL Server to consolidate sales data, enabling 
 ### Data Architecture
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver** and **Gold** layers:
 
->>>>> Image to be added!
+![data architecture](docs/Data Architecture.png)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from csv files into SQL server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization and normalization processes to prepare data for analysis. 
