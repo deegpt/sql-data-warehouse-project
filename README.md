@@ -5,15 +5,25 @@ Welcome to the **Data Warehouse and Analytics Project** repository.
 This project demonstrates a comprehensice data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolo project, it highlights indutry best practices in data enginerring and analytics.
 
 ---
+## 🏗️ Data Architecture
 
-## Project Overview
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+![Data Architecture](docs/data_architecture.png)
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+---
+
+## 📖 Project Overview
 This project involves:
 1. **Data Architecture:** Designing a modern Data Warehouse using Medallion Architecture **Bronze**, **Silver** and **Gold** layers.
 2. **ETL Pipelines:** Extracting, Transforming and Loading data fromo source systems into the warehouse.
 3. **Data Modeling:** Developing fact and dimension tables, optimized for analytical queries.
 4. **Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
 
-This repository is an excellent resource for professionals and students looking to showcase expertise in:
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
 - SQL Development
 - Data Architect
 - Data Engineering
@@ -22,17 +32,16 @@ This repository is an excellent resource for professionals and students looking 
 - Data Analytics
 ---
 
-### Important Links & Tools:
+## 🛠️ Important Links & Tools:
 - **Datasets**: Access to the Project Dataset (csv files).
-- **SQL Server Express**: Lightweight server for hosting your SQL database.
-- **GIT Repository**: Repository to manage, version and collaborate on the code efficiently.
-- **DrawIO**: Design Data Architecture, models, flows and diagrams.
-- **Notion**: All-in-one tool for project management and organization.
-- **Notion Project Steps**: Access to all project phases and tasks.
+- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
+- **[GIT Repository](https://github.com/):** Repository to manage, version and collaborate on the code efficiently.
+- **[DrawIO](https://www.drawio.com/):**: Design Data Architecture, models, flows and diagrams.
+- **[Notion Project Steps](https://www.notion.so/Data-Warehouse-Project-2f6500583853804f9f98fe4eb524b221):** Access to all project phases and tasks.
 
 ---
 
-### Project Requirements
+## 🚀 Project Requirements
 #### Building the Data Warehouse (Data Engineering)
 
 #### Objective
@@ -47,7 +56,7 @@ Develop a modern warehouse using SQL Server to consolidate sales data, enabling 
 
 ---
 
-### Data Architecture
+## Data Architecture
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver** and **Gold** layers:
 
 ![data_architecture](docs/data_architecture.png)
@@ -56,7 +65,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 2. **Silver Layer**: This layer includes data cleansing, standardization and normalization processes to prepare data for analysis. 
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
-### Repository Structure
+## 📂 Repository Structure
 ```
 data-warehouse-project/
 │
@@ -84,9 +93,9 @@ data-warehouse-project/
 ```
 ---
 
-### BI: Analytics & Reporting (Data Analytics)
+## BI: Analytics & Reporting (Data Analytics)
 
-#### Objective
+### Objective
 Develop SQL-based analytics to deliver detailed insights into:
 - **Customer Behaviour**
 - **Product Performance**
@@ -96,7 +105,11 @@ These insights empowers stakeholders with key business metrics, enabling strateg
 
 ---
 
-### About Me
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+## 🌟 About Me
 Hi there! I'm Deepak Gupta, a working professional in support industry and a data enthusiast, looking forward to make a career transition.
 
 Let's stat in touch! Feel free to connect me on:
