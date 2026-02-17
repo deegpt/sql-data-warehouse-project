@@ -101,4 +101,5 @@ Hi there! I'm Deepak Gupta, a working professional in support industry and a dat
 
 Let's stat in touch! Feel free to connect me on:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deegpt/) | [![[Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=google-chrome&logoColor=white)][deegupta1565@gmail.com]](deegupta1565@gmail.com) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deegpt/) 
+[deegupta1565@gmail.com](deegupta1565@gmail.com) 
